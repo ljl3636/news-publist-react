@@ -1,0 +1,31 @@
+.formContainer{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 500px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  .title{
+    color: white;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: inherit;
+    text-align: center;
+
+  }
+}
+
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
